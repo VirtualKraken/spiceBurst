@@ -397,6 +397,7 @@ a:focus {
 }
 
 .offer_section {
+     background-color: black;
   position: relative;
   padding-top: 45px;
 }
@@ -411,7 +412,7 @@ a:focus {
   margin-top: 45px;
   border-radius: 5px;
   padding: 20px 15px;
-  background-color: #222831;
+  background-color: #1a2435;
   color: #ffffff;
 }
 
@@ -476,7 +477,9 @@ a:focus {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
-
+.food_section{
+     background-color: black;
+}
 .food_section .filters_menu {
   padding: 0;
   display: -webkit-box;
@@ -495,6 +498,8 @@ a:focus {
   padding: 7px 25px;
   cursor: pointer;
   border-radius: 25px;
+  background-color: #22283100;
+  color: #ffffff;
 }
 
 .food_section .filters_menu li.active {
@@ -510,7 +515,7 @@ a:focus {
   color: #ffffff;
   border-radius: 15px;
   overflow: hidden;
-  background: linear-gradient(to bottom, #f1f2f3 25px, #222831 25px);
+  background: linear-gradient(to bottom, #f1f2f3 25px, #1a2435 25px);
 }
 
 .food_section .box .img-box {
@@ -615,7 +620,8 @@ a:focus {
 }
 
 .about_section {
-  background: #222831;
+     background: rgb(0,0,0);
+     background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(12,147,231,1) 100%);
   color: #ffffff;
 }
 
@@ -664,6 +670,7 @@ a:focus {
 
 .book_section {
   position: relative;
+  background-color: black;
 }
 
 .book_section .heading_container {
@@ -737,6 +744,9 @@ a:focus {
 }
 
 /* client section start */
+.client_section{
+     background: black;
+}
 .client_section .heading_container {
   margin-bottom: 30px;
 }
@@ -787,7 +797,7 @@ a:focus {
 }
 
 .client_section .box .detail-box {
-  background-color: #222831;
+  background-color: #1a2435;
   color: #ffffff;
   padding: 25px 25px 15px 25px;
   border-radius: 5px;
@@ -900,7 +910,7 @@ a:focus {
 
 /* footer section*/
 .footer_section {
-  background-color: #222831;
+  background-color: #1a2435;
   color: #ffffff;
   padding: 75px 0 40px 0;
   text-align: center;
